@@ -1,6 +1,6 @@
 {
   "name": "@yuanjianming/unplugin-compress-svga",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "build": "tsup",
@@ -53,6 +53,14 @@
     },
     "./*": "./*"
   },
+  "homepage": "https://github.com/yuan66-hub/unplugin-compress-svga#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuan66-hub/unplugin-compress-svga.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuan66-hub/unplugin-compress-svga/issues"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -99,8 +107,8 @@
       "optional": true
     }
   },
-  "author": "",
-  "license": "ISC",
+  "author": "yuanjianming",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "svga": "^2.1.1",
